@@ -728,3 +728,34 @@
    
    
 }
+
+    .nav-main ul.menu li {
+        border-color: #E95E0F;
+        border-top-color: #4e96d7;
+        border-bottom-color: #1a4872;
+        background-color: #E95E0F;
+        background-image: -moz-linear-gradient(top, #E95E0F, #E87E45);
+    }
+
+    .nav-main ul.menu li a {
+        color: white;
+        border-color: #E95E0F;
+        border-top-color: #E95E0F;
+        border-bottom-color: #E87E45;
+        background-color: #E95E0F;
+        background-image: -moz-linear-gradient(top, #E95E0F, #E87E45);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E95E0F), color-stop(1, #E87E45));
+        background-image: linear-gradient(top, #E95E0F, #E87E45);
+  }
+
+.nav-main ul.menu li a:focus, .nav-main ul.menu li a:hover {
+    background: #E87E45 none repeat scroll 0% 0%;
+    color: #000;
+}
+
+.skiplinks li a {
+    background: #2D7DC5 -moz-linear-gradient(center top , #E95E0F, #E87E45) repeat scroll 0% 0%;
+    color: #FFF;
+    border-color: #E95E0F #E87E45 #E95E0F;
+}
+
